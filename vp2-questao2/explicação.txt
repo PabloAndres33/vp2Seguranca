@@ -7,5 +7,5 @@ Gerando uma chave privada RSA com OpenSSL
 Criando uma chave pública RSA a partir de uma chave privada usando OpenSSL
 2- rsa -in private-key.pem -pubout -out public-key.pem
 
-Criando um certificado autoassinado RSA usando OpenSSL
-3- req -new -x509 -key private-key.pem -out cert.pem -days 360
+
+
