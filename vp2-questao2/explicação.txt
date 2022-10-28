@@ -2,10 +2,11 @@ OpenSSL para criar chaves adequadas para criptografia onde serão criadas as cha
 
 
 Gerando uma chave privada RSA com OpenSSL
-1- genrsa -out private-key.pem 3072
+1- openssl genrsa -out private-key.pem 3072
+                
 
 Criando uma chave pública RSA a partir de uma chave privada usando OpenSSL
-2- rsa -in private-key.pem -pubout -out public-key.pem
-
+2- openssl rsa -in private-key.pem -pubout -out public-key.pem
+       
 
 
