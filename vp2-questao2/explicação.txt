@@ -4,11 +4,11 @@ Comandos necessários para criar um par de chaves(pública e privada) através d
 
 Gerando uma chave privada RSA com OpenSSL
 1- openssl genrsa -out private-key.pem 3072
-Isso fornece um arquivo PEM contendo sua chave privada RSA               
+Isso fornece um arquivo PEM contendo sua chave privada RSA. Onde "private-key.pem" é o diretório do arquivo e "3072" o tamanho que terá a chave, o tamanho requer minimamente 2048  
 
 Criando uma chave pública RSA a partir de uma chave privada usando OpenSSL
 2- openssl rsa -in private-key.pem -pubout -out public-key.pem
-Isso deve fornecer outro arquivo PEM, contendo a chave pública
+Isso deve fornecer outro arquivo PEM, contendo a chave pública. No qual, o "private-key.pem" é diretório da chave privada e "public-key.pem" é o diretório que será criado o arquivo contendo a chave pública.
        
 
 
