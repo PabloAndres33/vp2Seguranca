@@ -1,5 +1,6 @@
 OpenSSL para criar chaves adequadas para criptografia onde serão criadas as chaves privadas e públicas RSA
 
+Comandos necessários para criar um par de chaves(pública e privada) através da linha de comando:
 
 Gerando uma chave privada RSA com OpenSSL
 1- openssl genrsa -out private-key.pem 3072
